@@ -1,7 +1,5 @@
-var User = require('../models/user').User,
-	DataProcessError = require('../error').DataProcessError,
-	sendError = require('../error').sendError,
-	async = require('async'),
+var DataProcessError = require('../error').DataProcessError,
+	sendError = require('../error').sendError
 	api = require('./api');
 
 var stream = {
